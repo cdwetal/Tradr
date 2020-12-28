@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\TradrDataAccess\TradrDataAccess\TradrDataAccess.csproj" />
+    <ProjectReference Include="..\..\TradrORM\TradrORM\TradrORM.csproj" />
+  </ItemGroup>
+
 
 </Project>
